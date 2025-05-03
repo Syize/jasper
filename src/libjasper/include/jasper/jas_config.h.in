@@ -30,16 +30,16 @@
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #undef HAVE_DLFCN_H
 
-/* Define to 1 if you don't have `vprintf' but do have `_doprnt.' */
+/* Define to 1 if you don't have 'vprintf' but do have '_doprnt.' */
 #undef HAVE_DOPRNT
 
 /* Define to 1 if you have the <fcntl.h> header file. */
 #undef HAVE_FCNTL_H
 
-/* Define to 1 if you have the `getrusage' function. */
+/* Define to 1 if you have the 'getrusage' function. */
 #undef HAVE_GETRUSAGE
 
-/* Define to 1 if you have the `gettimeofday' function. */
+/* Define to 1 if you have the 'gettimeofday' function. */
 #undef HAVE_GETTIMEOFDAY
 
 /* Define to 1 if you have the <inttypes.h> header file. */
@@ -48,14 +48,11 @@
 /* Define to 1 if you have the <io.h> header file. */
 #undef HAVE_IO_H
 
-/* Define to 1 if you have the `m' library (-lm). */
+/* Define to 1 if you have the 'm' library (-lm). */
 #undef HAVE_LIBM
 
 /* Define to 1 if you have the <limits.h> header file. */
 #undef HAVE_LIMITS_H
-
-/* Define to 1 if you have the <memory.h> header file. */
-#undef HAVE_MEMORY_H
 
 /* Define to 1 if you have the <stdbool.h> header file. */
 #undef HAVE_STDBOOL_H
@@ -65,6 +62,9 @@
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
 
 /* Define to 1 if you have the <stdlib.h> header file. */
 #undef HAVE_STDLIB_H
@@ -90,7 +90,7 @@
 /* Have variable length arrays */
 #undef HAVE_VLA
 
-/* Define to 1 if you have the `vprintf' function. */
+/* Define to 1 if you have the 'vprintf' function. */
 #undef HAVE_VPRINTF
 
 /* Define to 1 if you have the <windows.h> header file. */
@@ -117,10 +117,15 @@
 /* Define to the one symbol short name of this package. */
 #undef PACKAGE_TARNAME
 
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
 /* Define to the version of this package. */
 #undef PACKAGE_VERSION
 
-/* Define to 1 if you have the ANSI C header files. */
+/* Define to 1 if all of the C89 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
 #undef STDC_HEADERS
 
 /* Version number of package */
@@ -129,37 +134,37 @@
 /* Define to 1 if the X Window System is missing or not being used. */
 #undef X_DISPLAY_MISSING
 
-/* Define to empty if `const' does not conform to ANSI C. */
+/* Define to empty if 'const' does not conform to ANSI C. */
 #undef const
 
-/* Define to `__inline__' or `__inline' if that's what the C compiler
+/* Define to '__inline__' or '__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */
 #ifndef __cplusplus
 #undef inline
 #endif
 
-/* Define to `long long' if <sys/types.h> does not define. */
+/* Define to 'long long' if <sys/types.h> does not define. */
 #undef longlong
 
-/* Define to `unsigned' if <sys/types.h> does not define. */
+/* Define as 'unsigned int' if <stddef.h> doesn't define. */
 #undef size_t
 
-/* Define to `int' if <sys/types.h> does not define. */
+/* Define to 'int' if <sys/types.h> does not define. */
 #undef ssize_t
 
-/* Define to `unsigned char' if <sys/types.h> does not define. */
+/* Define to 'unsigned char' if <sys/types.h> does not define. */
 #undef uchar
 
-/* Define to `unsigned int' if <sys/types.h> does not define. */
+/* Define to 'unsigned int' if <sys/types.h> does not define. */
 #undef uint
 
-/* Define to `unsigned long' if <sys/types.h> does not define. */
+/* Define to 'unsigned long' if <sys/types.h> does not define. */
 #undef ulong
 
-/* Define to `unsigned long long' if <sys/types.h> does not define. */
+/* Define to 'unsigned long long' if <sys/types.h> does not define. */
 #undef ulonglong
 
-/* Define to `unsigned short' if <sys/types.h> does not define. */
+/* Define to 'unsigned short' if <sys/types.h> does not define. */
 #undef ushort
 
 
