@@ -63,7 +63,7 @@ dnl ****************************************************************************
 dnl Initialize autoconf.
 AC_INIT(AC_JAS_NAME, AC_JAS_VERSION)
 AC_PREREQ(2.59)
-AC_CONFIG_SRCDIR(README)
+AC_CONFIG_SRCDIR(README.md)
 dnl Note: Avoid the temptation to call the auxiliary directory "aux" because
 dnl Microsoft Windows will barf if you try to use "aux" as a directory name. :-(
 AC_CONFIG_AUX_DIR(acaux)
@@ -385,7 +385,6 @@ AC_CONFIG_HEADERS([src/libjasper/include/jasper/jas_config.h])
 AC_CONFIG_FILES([
 Makefile
 src/Makefile
-src/appl/Makefile
 src/libjasper/Makefile
 src/libjasper/base/Makefile
 src/libjasper/bmp/Makefile
@@ -398,7 +397,6 @@ src/libjasper/mif/Makefile
 src/libjasper/pgx/Makefile
 src/libjasper/pnm/Makefile
 src/libjasper/ras/Makefile
-src/msvc/Makefile
 jasper.spec
 ])
 AC_OUTPUT

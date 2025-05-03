@@ -58,7 +58,7 @@
 
 AUTOMAKE_OPTIONS = foreign dist-zip dist-tarZ
 
-EXTRA_DIST = README INSTALL COPYRIGHT LICENSE NEWS ChangeLog data doc \
+EXTRA_DIST = INSTALL COPYRIGHT LICENSE data doc \
   jasper.spec.in jasper.spec acaux
 
 # Note: We need to put the derived file "jasper.spec" in the distribution

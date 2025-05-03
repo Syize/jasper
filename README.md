@@ -1,3 +1,14 @@
+# Syize's JasPer library repo.
+
+This repo contains the JasPer source code of `v1.900.1`, which is used to build JasPer library for WRF model on Arch Linux.
+
+I want to keep this repo as simple as possible, so I deleted all files I doesn't use.
+
+If you want to obtain the source code of JasPer, please refer to the [official repo](https://github.com/jasper-software/jasper/tree/version-1.900.1).
+
+Here is the original README:
+
+```
 JasPer Readme
 *************
 
@@ -19,4 +30,4 @@ the software, 2) how to submit report bugs, and 3) where to find
 additional information about the software.
 
 Enjoy! :)
-
+```
