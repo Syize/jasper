@@ -1,2 +1,12 @@
 build/
 build.bak/
+**/.libs/
+**/.deps/
+
+**/Makefile
+config.log
+config.status
+libtool
+**/*.lo
+**/*.la
+src/libjasper/include/jasper/stamp-h1
