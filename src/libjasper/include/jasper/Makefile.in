@@ -238,7 +238,7 @@ target_alias = @target_alias@
 target_cpu = @target_cpu@
 target_os = @target_os@
 target_vendor = @target_vendor@
-libjasperincludedir = $(includedir)/jasper
+libjasperincludedir = $(includedir)
 libjasperinclude_HEADERS = \
 	jasper.h \
 	jas_config.h \
